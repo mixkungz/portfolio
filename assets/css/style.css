@@ -3,6 +3,7 @@ body,html{
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #FFFFFF;
 }
 #intro{
   width: 100%;
@@ -24,4 +25,9 @@ body,html{
 }
 .profile-card{
   height: 100%;
+  position: relative;
+}
+.profile-card-contact{
+  position:absolute;
+  bottom: 0;
 }
