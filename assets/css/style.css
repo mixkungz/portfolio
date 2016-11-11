@@ -28,6 +28,14 @@ body,html{
   position: relative;
 }
 .profile-card-contact{
-  position:absolute;
-  bottom: 0;
+  padding: 0;
+}
+.row-icon-contact{
+  background-color: brown;
+  min-width: 100%;
+  min-height: 100%;
+}
+.icon-contact{
+  height: 30%;
+  width: 30%;
 }
