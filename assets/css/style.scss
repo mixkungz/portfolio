@@ -1,0 +1,40 @@
+$primary-color:#3b7684;
+$subprimary-color:#18a0ac;
+html,body{
+    margin:0;
+    padding:0;
+    border:0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: $primary-color;
+}
+nav {
+  .navbar-custom{
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .navbar-layout{
+    margin-top: 2em;
+  }
+  .nav-pills a{
+    color:white;
+  }
+  ul li{
+    font-size: 1.2em;
+  }
+}
+#intro{
+  width: 100%;
+  height: 100%;
+  background-image: url(../image/workspace.jpg);
+  background-position: bottom;
+  background-size: cover;
+  h1{
+    color: white;
+    margin-top: 9em;
+  }
+  .navigate{
+    font-family: monospace;
+    margin-top: 14em;
+  }
+}
