@@ -1,40 +1,50 @@
-$primary-color:#3b7684;
-$subprimary-color:#18a0ac;
+$primary-color:#333;
+$subprimary-color:#666;
 html,body{
     margin:0;
     padding:0;
     border:0;
     width: 100%;
     height: 100%;
-    color: white;
-    background-color: $primary-color;
+    background-color: #fafafa;
+    font-family: 'Helvetica'
 }
-nav {
-  .navbar-custom{
-    background-color: rgba(0, 0, 0, 0.6);
+header{
+    img{
+      margin-top: 1em;
+      width: 110px;
+      height: 110px;
+    }
+    h4{
+      color:$primary-color;
+      font-weight: 500;
+      margin-bottom: 7px;
+    }
+    span{
+      color: $subprimary-color;
+      font-size: 16px;
+    }
+}
+.header{
+  font-weight: 600;
+}
+#about-me{
+  .detail{
+    font-weight: 500;
   }
-  .navbar-layout{
-    margin-top: 2em;
-  }
-  .nav-pills a{
-    color:white;
-  }
-  ul li{
-    font-size: 1.2em;
+  .ico{
+    font-size: 1.8em;
+    margin-top: 1em;
+    color: $subprimary-color;
   }
 }
-#intro{
-  width: 100%;
-  height: 100%;
-  background-image: url(../image/workspace.jpg);
-  background-position: bottom;
-  background-size: cover;
-  h1{
-    color: white;
-    margin-top: 9em;
-  }
-  .navigate{
-    font-family: monospace;
-    margin-top: 14em;
+#exp{
+  margin-top: 1em;
+}
+#proj{
+  margin-top: 2em;
+  a{
+    margin-left: 2em;
+    margin-right: 2em;
   }
 }
