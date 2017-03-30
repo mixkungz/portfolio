@@ -1,12 +1,15 @@
 $primary-color:#333;
 $subprimary-color:#666;
+
 html,body{
   margin:0;
   padding: 0;
   border:0;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  color: $primary-color;
 }
+
 .pic-intro{
   background-image: url('../img/phachara_large.jpg');
   background-size: cover;
@@ -14,6 +17,7 @@ html,body{
   background-repeat: no-repeat;
   height: 50vh;
 }
+
 #intro{
   height: 50vh;
   position: relative;
@@ -42,32 +46,60 @@ html,body{
     width: 1em;
     height: 1em;
   }
+  a:hover{
+    cursor: pointer;
+  }
 }
+
 #profile{
   .standingimg{
     height: 100vh;
     background-image: url('../img/IMG_8468.jpg');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 50% 75%;
     background-size: cover;
   }
-}
-#poem{
-  h2{
+  h3,h4{
     font-weight: 300;
-    font-style: italic;
   }
-  h2 span{
+  span{
+    font-size: 0.8em;
+  }
+  h3.poem{
+    margin-top: 1.5em;
+    font-style: italic;
+
+  }
+  h3.poem span{
     font-size: 0.5em;
   }
+
 }
+
 #proj{
   height: 100vh;
+  .pattern{
+    background-image: url('../img/6215.jpg');
+    height: 15vh;
+  }
+  .fullsize{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .freedom{
+    position: absolute;
+    bottom: 0;
+  }
   h2{
     font-weight: 300;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.07em;
+    margin-bottom: 0.7em;
   }
   .owl-carousel{
     margin-top: 5em;
+  }
+  .box{
+    width: 40%;
   }
 }
