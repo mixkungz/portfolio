@@ -8,6 +8,7 @@ html,body{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: $primary-color;
+  background-color: #fafafa;
 }
 
 .pic-intro{
@@ -101,5 +102,10 @@ html,body{
   }
   .box{
     width: 40%;
+  }
+  .btn-grey{
+    color: #434A54;
+    background-color: #CCD1D9;
+    border-color: #CCD1D9;
   }
 }
