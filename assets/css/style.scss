@@ -69,12 +69,10 @@ html,body{
   h3.poem{
     margin-top: 1.5em;
     font-style: italic;
-
   }
   h3.poem span{
     font-size: 0.5em;
   }
-
 }
 
 #proj{
@@ -120,4 +118,81 @@ html,body{
       background-color: rgba(0, 0, 0, 0.5);
     }
   }
+}
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px){
+  .pic-intro{
+    background-image: url('../img/phachara_large.jpg');
+    background-size: cover;
+    background-position: 70% 30%;
+    background-repeat: no-repeat;
+    height: 30vh;
+  }
+
+  #intro{
+    height: 70vh;
+    h1{
+      font-size: 1.7em;
+    }
+    .top{
+      margin-top: 1em;
+      font-size: 1em;
+    }
+
+    .ico{
+      font-size: 1.5em;
+    }
+    .mouseico{
+      margin-top: -1em;
+    }
+  }
+  #profile{
+    .standingimg{
+      height: 100vh;
+      background-image: url('../img/IMG_8468.jpg');
+      background-repeat: no-repeat;
+      background-position: 80% 75%;
+      background-size: cover;
+    }
+    h3,h4{
+      font-weight: 300;
+    }
+    h3{
+      font-size: 1.4em;
+      margin:0;
+    }
+    h4{
+      font-size: 1.1em;
+    }
+    span{
+      font-size: 0.6em;
+    }
+    h3.poem{
+      margin-top: 1.5em;
+      font-style: italic;
+    }
+    h3.poem span{
+      font-size: 0.5em;
+    }
+  }
+  #proj{
+    .line{
+      border: 1px solid $subprimary-color;
+      img{
+        width: 10em;
+        height: 10em;
+      }
+    }
+  }
+
+
+}
+
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 991px){
+
+}
+
+/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+@media screen and (min-width: 992px){
 }
