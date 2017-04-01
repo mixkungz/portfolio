@@ -176,11 +176,30 @@ html,body{
     }
   }
   #proj{
+    h2{
+      font-size: 2.3em;
+    }
     .line{
       border: 1px solid $subprimary-color;
+      position: relative;
       img{
-        width: 10em;
-        height: 10em;
+        width: 2em;
+        height: 6em;
+        margin-left: -0.5em;
+      }
+      h4{
+        font-family: 'Kanit',sans-serif;
+        font-weight: 300;
+        font-size: 1.2em;
+      }
+      .react{
+        width: 4em;
+        margin-left: -1.4em;
+      }
+      p{
+        padd
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
       }
     }
   }
