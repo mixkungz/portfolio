@@ -119,6 +119,12 @@ html,body{
     }
   }
 }
+#end{
+  h1{
+    font-weight: 300;
+    font-style: italic;
+  }
+}
 /*### Smartphones (portrait and landscape)(small)### */
 @media screen and (min-width : 0px) and (max-width : 767px){
   .pic-intro{
@@ -204,13 +210,4 @@ html,body{
   }
 
 
-}
-
-/*###Tablet(medium)###*/
-@media screen and (min-width : 768px) and (max-width : 991px){
-
-}
-
-/*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
-@media screen and (min-width: 992px){
 }
