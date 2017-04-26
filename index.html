@@ -238,17 +238,19 @@
     <script src="assets/js/jquery.fullpage.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-    	$('#fullpage').fullpage();
-    });
+      $('#fullpage').fullpage({
+          scrollOverflow: true,
+        });
       $(function () {
         $('[data-toggle="tooltip"]').tooltip()
-      })
+      });
     function getCenter(){
       var x =0;
       x = ($('.standingimg').height()/2)-($('.centerbox').height()/2);
       return x;
     }
     $('.centerbox').css("margin-top",getCenter());
+    )};
     </script>
 
 
